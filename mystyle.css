@@ -1,0 +1,229 @@
+html,body{
+    height:100%;
+    color:white;
+    text-align: center;
+    position: relative;
+    background-color:white;
+    
+}
+
+
+.navbar{
+   
+    background-color: floralwhite;
+    font-family: degular-display,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:x-large;
+    
+  
+}
+
+.navbar-brand{
+  color:#B2AC88;
+  font-size: 1.25em;
+  font-family: bookman-jf-pro, serif;
+  font-weight: 400;
+}
+
+
+
+
+
+.img-container{
+    background-image: url(cta.png);
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+  
+  }
+  
+  .inner-container{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color:black;
+    height: auto;
+    margin-top: 200px;
+  
+  
+  }
+
+  h1{
+    font-size: 7em;
+    font-family: bookman-jf-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    color:floralwhite;
+    text-shadow: 8px 8px 20px black;
+  }
+
+  h2{
+    color:floralwhite; 
+    text-shadow: 8px 8px 20px black;
+    font-size: 2.5em;
+    font-family: degular-display,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+  @media only screen and (max-width: 920px){
+    .inner-container{
+      margin-top: 100px;
+    }
+
+    h1{
+        font-size:5.5em
+    }
+
+    h2{
+        font-size:2em
+    }
+  }
+  
+  @media only screen and (max-width: 540px){
+    .inner-container{
+      margin-top: 115px;
+  
+    }
+    h1{
+        font-size:5em
+    }
+
+    h2{
+        font-size:1.75em
+    }
+
+   
+}
+
+img{
+    opacity: 0.95;
+}
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color:transparent; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+
+#myBtn:hover {
+  background-color:mistyrose; /* Add a dark-grey background on hover */
+}
+
+
+a.btn{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: degular-display,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7em;
+    margin-top: 20px;
+  
+  
+  }
+  
+  .btn{
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    padding: 16px;
+    background-color: #B2AC88;
+    color: white;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  
+  
+  }
+  
+  .btn:hover,.btnactive{
+    background-color: whitesmoke;
+    color: #B2AC88;
+    text-shadow: none;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  }
+
+  h3{
+    color:#e29578; 
+    font-size: 2.5em;
+    font-family: bookman-jf-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+p{
+    font-size: large;
+    font-family: degular-text,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+  }
+
+  hr.solid {
+    border-top: 3px solid #B2AC88;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top:15px;
+    margin-bottom:15px;
+  }
+
+  .sectiondivider{
+    width:100%;
+  }
+
+  .sectiondivider img{
+    max-height:100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin:auto;
+  }
+
+  .card{
+    background-color: floralwhite;
+    
+
+
+}
+ion-icon {
+    font-size: 32px;
+    color: #B2AC88;
+    
+  }
+
+
+  .storecard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-size: large;
+    font-family: degular-text,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
